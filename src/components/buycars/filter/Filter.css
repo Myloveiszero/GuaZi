@@ -1,0 +1,44 @@
+.filter {
+    position: relative;
+    width: 100%;
+    height: 2.053333rem /* 77/37.5 */;
+}
+.filter-nav {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: 1.093333rem /* 41/37.5 */;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.filter-nav-third {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    height: .96rem /* 36/37.5 */;
+    display: flex;
+    padding: .533333rem /* 20/37.5 */;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0 .026667rem .053333rem 0 rgba(0,0,0,.06);
+    box-sizing: border-box;
+}
+.nav-item a{
+    position: relative;
+    display: block;
+    font-size: .32rem /* 12/37.5 */;
+    line-height: 1.093333rem /* 41/37.5 */;
+    color: #333;
+    text-align: center;
+    padding-right: .266667rem /* 10/37.5 */;
+    max-width: 18%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.nav-item a span {
+    height: .373333rem /* 14/37.5 */;
+    color: #000;
+}
