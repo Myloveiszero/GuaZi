@@ -1,0 +1,46 @@
+.list-wrapper {
+    position: relative;
+    width: 100%;
+    height: 54.666667rem /* 2050/37.5 */;
+    /* background-color: blue; */
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+}
+.list-content {
+    position: relative;
+    display: flex;
+    width: 9.466667rem /* 355/37.5 */;
+    height: 3.64rem;
+    margin-left: .266667rem /* 10/37.5 */;
+    /* padding-top: .426667rem 16/37.5; */
+    border: .026667rem solid ;
+}
+.img-wrapper {
+    position: relative;
+    display: flex;
+    /* margin-left: 0; */
+    /* z-index: 100; */
+    margin-top: .533333rem /* 20/37.5 */;
+    height: 2.573333rem /* 96.5/37.5 */;
+    width: 3.786667rem /* 142/37.5 */;
+    background-color: #000;
+}
+.info-wrapper {
+    position: relative;
+    display: flex;
+    flex: 1;
+    margin-left: .453333rem /* 17/37.5 */;
+    margin-top: .533333rem /* 20/37.5 */;
+    height: 2.573333rem /* 96.5/37.5 */;
+    background-color: yellow;
+    }
+.car-name {
+
+}
+.car-time {
+
+}
+.car-price {
+    
+}
