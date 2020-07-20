@@ -1,7 +1,8 @@
 .buycars-wrapper {
-    position: relative;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    min-width: 320px;
+    max-width: 540px;
+    overflow: hidden;
 }

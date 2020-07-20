@@ -4,9 +4,11 @@ import './Header.css';
 function Header() {
 
     return(
-        <div className="header-wrapper">
-            Header
-        </div>
+           <header>
+                <div className="header-position">南昌</div>
+                <div className="header-input">搜索您要的车</div>
+                <span className="header-help"></span>
+            </header>
    )
 }
 

@@ -12,8 +12,8 @@ function Wrapper() {
     return (
         <div className="buycars-wrapper">
             <Header />
-            <Filter />
-            <List />
+            <Filter />    
+            <List />              
         </div>
     )
 

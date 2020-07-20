@@ -67,6 +67,67 @@ function List() {
                     </div>
                 </div>
             </div>
+            <div className="list-content">
+                <div className="img-wrapper"></div>
+                <div className="info-wrapper">
+                    <div className="car-name"></div>
+                    <div className="car-time">
+                        <div className="car-info"></div>
+                        <div className="preferential"></div>
+                    </div>
+                    <div className="car-price">
+                        <span className="pic-num"></span>
+                        <div className="discount"></div>
+                        <div className="trolley-icon"></div>
+                    </div>
+                </div>
+            </div>
+            <div className="list-content">
+                <div className="img-wrapper"></div>
+                <div className="info-wrapper">
+                    <div className="car-name"></div>
+                    <div className="car-time">
+                        <div className="car-info"></div>
+                        <div className="preferential"></div>
+                    </div>
+                    <div className="car-price">
+                        <span className="pic-num"></span>
+                        <div className="discount"></div>
+                        <div className="trolley-icon"></div>
+                    </div>
+                </div>
+            </div>
+            <div className="list-content">
+                <div className="img-wrapper"></div>
+                <div className="info-wrapper">
+                    <div className="car-name"></div>
+                    <div className="car-time">
+                        <div className="car-info"></div>
+                        <div className="preferential"></div>
+                    </div>
+                    <div className="car-price">
+                        <span className="pic-num"></span>
+                        <div className="discount"></div>
+                        <div className="trolley-icon"></div>
+                    </div>
+                </div>
+            </div>
+            <div className="list-content">
+                <div className="img-wrapper"></div>
+                <div className="info-wrapper">
+                    <div className="car-name"></div>
+                    <div className="car-time">
+                        <div className="car-info"></div>
+                        <div className="preferential"></div>
+                    </div>
+                    <div className="car-price">
+                        <span className="pic-num"></span>
+                        <div className="discount"></div>
+                        <div className="trolley-icon"></div>
+                    </div>
+                </div>
+            </div>
+            <div className="tabs"></div>
         </div>
     )
 }
