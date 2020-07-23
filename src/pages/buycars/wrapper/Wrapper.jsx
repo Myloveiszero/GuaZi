@@ -1,8 +1,9 @@
 import React from 'react';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import Header from '../header/Header';
 import Filter from '../filter/Filter';
 import List from '../list/List';
+import Tabar from '../../../components/bottom/Bottom';
 import './Wrapper.css';
 
 function Wrapper() {
@@ -11,9 +12,12 @@ function Wrapper() {
 
     return (
         <div className="buycars-wrapper">
+            <div className="top-wrapper">
             <Header />
-            <Filter />    
-            <List />              
+            <Filter />
+            </div>          
+            <List />    
+            <Tabar />       
         </div>
     )
 

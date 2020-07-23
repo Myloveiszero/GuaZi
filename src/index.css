@@ -44,10 +44,16 @@ samp,
 optgroup,
 option {
   line-height: 1.5;
-  font-family: arial, '\5B8B\4F53', '\5FAE\8F6F\96C5\9ED1', verdana, helvetica,
-      sans-serif;
+  /* font-family: arial, '\5B8B\4F53', '\5FAE\8F6F\96C5\9ED1', verdana, helvetica,
+      sans-serif; */
 }
-
+body, button, input, select, textarea {
+  font: 14px/1.5 helvetica neue,tahoma,arial,hiragino sans gb,microsoft yahei,sans-serif;
+}
+.around-remote:after, .around-tit:before, .car-price-sell:before, .collection li:first-of-type span i, .collection li:last-child span i, .icon-car, .icon-column:before, .icon-home:before, .icon-line:before, .icon-multicolor, .icon-other, .icon-reset:before, .icon-totel:before, .iconbg, .iconcollect, .lines, .nav-item:after, .nav-subscribe:before, .subs-notip:before, .swich-three i {
+  background: url(./assets/fontImg/icon.png) no-repeat;
+  background-size: 210px auto;
+}
 body {
   min-width: 320px;
   max-width: 540px;

@@ -7,7 +7,7 @@ function Filter(){
         <div className="filter">
                 <div className="filter-nav">
                     <a href="" className="nav-item order">
-                        <span>价格最低</span>
+                        <span>智能选车</span>
                     </a>
                     <a href="" className="nav-item brand">
                         <span>品牌</span
@@ -20,10 +20,10 @@ function Filter(){
                     </a>
                 </div>
                 <div className="filter-nav-third">
-                    <a href="" className="third-nav-item-icon">严选好车</a>
-                    <a href="" className="third-nav-item-icon">全国低价</a>
-                    <a href="" className="third-nav-item-icon">准新车</a>
-                    <a href="" className="third-nav-item-icon">限时秒强</a>
+                    <a href="" className="third-nav-item-icon yanxuan">严选好车</a>
+                    <a href="" className="third-nav-item-icon dijia">全国低价</a>
+                    <a href="" className="third-nav-item-icon xinche">准新车</a>
+                    <a href="" className="third-nav-item-icon miaoqiang">限时秒抢</a>
                 </div>
         </div>
     )

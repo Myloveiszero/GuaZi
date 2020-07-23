@@ -6,8 +6,9 @@ function Header() {
     return(
            <header>
                 <div className="header-position">南昌</div>
-                <div className="header-input">搜索您要的车</div>
-                <span className="header-help"></span>
+                <div className="header-input">3-5万 标准408</div>
+                <span className="iconfont icon-gouwuche2"></span>
+                <span className="iconfont icon-tian"></span>
             </header>
    )
 }
