@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "2441157",
+      "name": "促销",
+      "font_class": "iconfontcuxiao",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4104270",
+      "name": "直播",
+      "font_class": "zhibo",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "16141422",
+      "name": "直播",
+      "font_class": "zhibo-copy",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
       "icon_id": "352484",
       "name": "购物车2",
       "font_class": "gouwuche2",
