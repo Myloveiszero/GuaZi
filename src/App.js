@@ -8,16 +8,15 @@ import Message from './pages/message/Message';
 import Mine from './pages/mine/Mine';
 import Detail from './pages/detailInfo/DetailInfor';
 
-
 function App() {
   return (
     <Router>
       {/* <Route path='/' exact component={Home}/> */}
       {/* <Route path='sell/'  component={SellCars}/> */}
-      <Route path='/buy'  component={BuyCars}/>
+      <Route path='/buy' exact component={BuyCars}/>
+      <Route path='/buy/detail'  component={Detail}/>
       {/* <Route path='/message/'  component={Message}/> */}
       {/* <Route path='/mine/'  component={Mine}/> */}
-      <Route path='/' component={Detail} />
     </Router>
   );
 }

@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './List.css';
 
 function List() {
 
     return (
         <div className="list-wrapper">  
-            <div className="list-content">
+            <Link to="/buy/detail" className="list-content">
                 <div className="img-wrapper"></div>
                 <div className="info-wrapper">
                     <div className="car-name">
@@ -21,8 +22,8 @@ function List() {
                         <div className="trolley-icon"></div>
                     </div>
                 </div>
-            </div>
-            <div className="list-content">
+            </Link>
+            <Link to="/buy/detail" className="list-content">
                 <div className="img-wrapper"></div>
                 <div className="info-wrapper">
                     <div className="car-name">
@@ -38,7 +39,7 @@ function List() {
                         <div className="trolley-icon"></div>
                     </div>
                 </div>
-            </div>
+            </Link>
             <div className="list-content">
                 <div className="img-wrapper"></div>
                 <div className="info-wrapper">

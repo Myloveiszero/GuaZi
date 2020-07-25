@@ -75,3 +75,6 @@ button {
   -webkit-appearance: none;
 }
 
+a:hover { 
+  text-decoration:  none;
+}

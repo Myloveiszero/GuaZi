@@ -25,6 +25,7 @@
 }
 .img-show {
     width: 100%;
+    position: relative;
     height: 6.133333rem /* 230/37.5 */;
     background-color: pink;
 }
@@ -36,7 +37,7 @@
     position: absolute;
     border-radius: 40%;
     right: .4rem /* 15/37.5 */;
-    top: 6.266667rem /* 235/37.5 */
+    top: 5.066667rem /* 190/37.5 */;
 }
 .pic-num {
     color: #ffffff;
@@ -284,7 +285,7 @@
 #right-icon {
     margin-top: .213333rem /* 8/37.5 */;
     content: "";
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAASCAMAAABYd88+AAAABGdBTUEAALGPC/xhBQAAADZQTFRFvsXPv8XQycnXv8bPv8XQv8bQzMzmwMfPvsbPvsbQw8nUvsXQwcbQwMfSxsbQv8bPAAAAvsXPFTH3LgAAABF0Uk5T3O4TyvOyCpXs7S/4MUkb2wBQ75w9AAAAT0lEQVQI103PRxLAMAgEQZyDAvD/zxpkgjhNV3FZoOmALqwJ5KcG3jsENEmQUoQGXD9Uy+rowKUbOnJp9mY94K2IFmQLtmjBsbecQGeM+wCaDgxEWOuuOgAAAABJRU5ErkJggg==) no-repeat;
+    background: url(../../assets/fontImg/right-icon.png) no-repeat;
     width: .16rem /* 6/37.5 */;
     height: .24rem /* 9/37.5 */;
     background-size: 100% 100%;
@@ -296,7 +297,136 @@
     background: blue;
 }
 .dangan {
-    width: 100%;
-    height: 5.546667rem /* 208/37.5 */;
+    /* height: 8rem 300/37.5; */
+    padding-left: .4rem /* 15/37.5 */;
+    padding-right: .4rem /* 15/37.5 */;
+    background: #ffffff;
+}
+.dangan-header--wrapper{
+    height: 1.6rem /* 60/37.5 */;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dangan-title {
+    font-size: .426667rem /* 16/37.5 */;
+    font-weight: 900;
+}
+.carInfo-link {
+    color: #8f96a0;
+    font-weight: 400;
+}
+.carInfo-item--title {
+    height: 1.066667rem /* 40/37.5 */;
+    display: flex;
+    color: #000000;
+    justify-content: space-around;
+    align-items: center;
+    background: #dddfe0;
+    font-size: .426667rem /* 16/37.5 */;
+    border-radius: .266667rem /* 10/37.5 */;
+}
+.carInfo-detail--row {
+    height: 1.866667rem /* 70/37.5 */;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.carInfo-detail--item {
+    height: 1.333333rem /* 50/37.5 */;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-top: .266667rem 10/37.5; */
+}
+.car-detail--item {
+    color: #8f96a0;
+}
+.detail-num{
+    color: #000000;
+    font-size: .373333rem /* 14/37.5 */;
+    font-weight: 400;
+}
+.detail-num--link{
+    color: #22ac38;
+    font-size: .373333rem /* 14/37.5 */;
+    margin-right: .266667rem /* 10/37.5 */;
+}
+.detail-num--link:after {
+    content: "";
+    width: .133333rem /* 5/37.5 */;
+    height: .133333rem /* 5/37.5 */;
+    background-size: 100% 100%;
+    border-top: 1px solid #22ac38;
+    border-right: 1px solid #22ac38;
+    transform: rotate(45deg);
+    position: absolute;
+    margin-top: .186667rem /* 7/37.5 */;
+}
+.dangan-canshu--wrapper{
+    height: 1.066667rem /* 40/37.5 */;
+    display: block;
+    text-align: center;
+}
+.dangan-canshu--text{
+    height: 1.066667rem /* 40/37.5 */;
+    line-height: 1.066667rem /* 40/37.5 */;
+    color: #8f96a0;
+    font-size: .373333rem /* 14/37.5 */;
+}
+.dangan-canshu--text::after {
+    content: "";
+    background: url(../../assets/fontImg/right-icon.png);
+    width: .266667rem /* 10/37.5 */;
+    height: .266667rem /* 10/37.5 */;
+    background-size: 100% 100%;
+    position: absolute;
+    margin-left: .133333rem /* 5/37.5 */;
+    margin-top: .4rem /* 15/37.5 */;
+}
+.shouhou {
+    height: 7.386667rem /* 277/37.5 */;
+    padding-left: .4rem /* 15/37.5 */;
+    padding-right: .4rem /* 15/37.5 */;
+    background: #ffffff;
+}
+.shouhou-header{
+    height: 1.493333rem /* 56/37.5 */;
+}
+.shouhou-content{
+    height: 5.893333rem /* 221/37.5 */;
+}
+.shouhou-content--box{
+    height: 5.466667rem /* 205/37.5 */;
+}
+.shouhou-content--item{
+    height: 4.48rem /* 168/37.5 */;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shouhou-item--box{
+    flex: 1;
+    display: block;
+    height: 2.24rem /* 84/37.5 */;
+    /* align-items: center; */
+    text-align: center;
+    width: 3.066667rem /* 115/37.5 */;
+}
+.shouhou-content--img {
+    display: inline-block;
+    width: 1.066667rem /* 40/37.5 */;
+    height: 1.066667rem /* 40/37.5 */;
+    margin-bottom: .266667rem /* 10/37.5 */;
+    
+}
+.shouhou-content--text{
+    /* text-align: center; */
+}
+.gouchefuwu {
+    height: 5.866667rem /* 220/37.5 */;
+    background: blue;
+}
+.xuangouzhinan{
+    height: 7.2rem /* 270/37.5 */;
     background: yellow;
 }
