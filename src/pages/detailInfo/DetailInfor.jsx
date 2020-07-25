@@ -195,45 +195,45 @@ function CarsInfomation() {
                 </div>
                 <div className="kongbaihe"></div>
                 <div className="gouchefuwu">
-                    <div class="gouchefuwu-header">
-                        <span class="gouchefuwu-content--title">购车服务</span>
+                    <div className="gouchefuwu-header">
+                        <span className="gouchefuwu-content--title">购车服务</span>
                     </div>
-                    <div class="gouchefuwu-content">
-                        <div class="gouchefuwu-content--wuliu">
-                            <span class="gouchefuwu-wuliu--title">瓜子物流</span>
-                            <h3 class="gouchefuwu-wuliu--text">车辆将由
-                                <span class="gouchefuwu-wuliu--from">华东仓</span>
+                    <div className="gouchefuwu-content">
+                        <div className="gouchefuwu-content--wuliu">
+                            <span className="gouchefuwu-wuliu--title">瓜子物流</span>
+                            <h3 className="gouchefuwu-wuliu--text">车辆将由
+                                <span className="gouchefuwu-wuliu--from">华东仓</span>
                                 运往
-                                <span class="gouchefuwu-wuliu--to">南昌</span>
+                                <span className="gouchefuwu-wuliu--to">南昌</span>
                             </h3>
                         </div>
-                        <div class="gouchefuwu-content--liuchen">
-                            <span class="gouchefuwu-liuchen--title">流程服务</span>
-                            <span class="gouchefuwu-liuchen--item">在线看车</span>
-                            <span class="gouchefuwu-liuchen--item">专人上门</span>
-                            <span class="gouchefuwu-liuchen--item">确定意向</span>
-                            <span class="gouchefuwu-liuchen--item">验车过户</span>
+                        <div className="gouchefuwu-content--liuchen">
+                            <span className="gouchefuwu-liuchen--title">流程服务</span>
+                            <span className="gouchefuwu-liuchen--item">在线看车</span>
+                            <span className="gouchefuwu-liuchen--item">专人上门</span>
+                            <span className="gouchefuwu-liuchen--item">确定意向</span>
+                            <span className="gouchefuwu-liuchen--item">验车过户</span>
                         </div>
-                        <div class="gouchefuwu-content--rengong">
-                            <div class="gouchefuwu-rengong--box">
-                            <div class="gouchefuwu-rengong--img"></div>
-                            <h3 class="gouchefuwu-rengong--text">顾问上门 为您一站式服务</h3>
+                        <div className="gouchefuwu-content--rengong">
+                            <div className="gouchefuwu-rengong--box">
+                            <div className="gouchefuwu-rengong--img"></div>
+                            <h3 className="gouchefuwu-rengong--text">顾问上门 为您一站式服务</h3>
                             </div>
-                            <span class="right-icon"></span>
+                            <span className="right-icon"></span>
                         </div>
                     </div>
                 </div>
                 <div className="kongbaihe"></div>
                 <div className="xuangouzhinan">
-                    <div class="xuangouzhinan-header">
-                        <div class="xuangouzhinan-left--box">
-                            <span class="xuangouzhinan-left--text1">纳智捷优6</span>
-                            <span class="xuangouzhinan-left--text2">SUV</span>
-                            <span class="xuangouzhinan-left--text3">选购指南</span>
+                    <div className="xuangouzhinan-header">
+                        <div className="xuangouzhinan-left--box">
+                            <span className="xuangouzhinan-left--text1">纳智捷优6</span>
+                            <span className="xuangouzhinan-left--text2">SUV</span>
+                            <span className="xuangouzhinan-left--text3">选购指南</span>
                         </div>
-                        <span class="xuangouzhinan-right--text">每日更新</span>
+                        <span className="xuangouzhinan-right--text">每日更新</span>
                     </div>
-                    <div class="xuangouzhinan-content"></div>
+                    <div className="xuangouzhinan-content"></div>
                 </div>
                 <div className="kongbaihe"></div>
             </div>
