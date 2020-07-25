@@ -14,7 +14,8 @@ function App() {
       {/* <Route path='/' exact component={Home}/> */}
       {/* <Route path='sell/'  component={SellCars}/> */}
       <Route path='/buy' exact component={BuyCars}/>
-      <Route path='/buy/detail'  component={Detail}/>
+      {/* <Route path='/buy/detail'  component={Detail}/> */}
+      <Route path='/'  component={Detail}/>
       {/* <Route path='/message/'  component={Message}/> */}
       {/* <Route path='/mine/'  component={Mine}/> */}
     </Router>

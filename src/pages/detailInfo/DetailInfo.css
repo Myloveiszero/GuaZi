@@ -315,6 +315,18 @@
 .carInfo-link {
     color: #8f96a0;
     font-weight: 400;
+    display: inline-block;
+    margin-right: .426667rem /* 16/37.5 */;
+}
+.carInfo-link::after {
+    margin-top: .16rem /* 6/37.5 */;
+    content: "";
+    background: url(../../assets/fontImg/right-icon.png) no-repeat;
+    width: .16rem /* 6/37.5 */;
+    height: .24rem /* 9/37.5 */;
+    background-size: 100% 100%;
+    margin-left: .266667rem /* 10/37.5 */;
+    position: absolute;;
 }
 .carInfo-item--title {
     height: 1.066667rem /* 40/37.5 */;
@@ -388,16 +400,50 @@
     height: 7.386667rem /* 277/37.5 */;
     padding-left: .4rem /* 15/37.5 */;
     padding-right: .4rem /* 15/37.5 */;
+    padding-bottom: .426667rem /* 16/37.5 */;
     background: #ffffff;
 }
-.shouhou-header{
+.shouhou-header--link{
     height: 1.493333rem /* 56/37.5 */;
+    display: flex;
+    justify-content: space-between;
+}
+.shouhou-header--text1{
+    font-size: .4rem /* 15/37.5 */;
+    color: #303741;
+    padding: 0;
+    line-height: 1.493333rem /* 56/37.5 */;
+}
+.shouhou-header--text2{
+    font-size: .266667rem /* 10/37.5 */;
+    line-height: .32rem /* 12/37.5 */;
+    color: #8f96a0;
+    margin-left: .4rem /* 15/37.5 */;
+}
+.shouhou-header--text3{
+    display: inline-block;
+    /* width: .026667rem 1/37.5; */
+    /* height: 1.493333rem 56/37.5; */
+    margin-right: .4rem /* 15/37.5 */;
+}
+.shouhou-header--text3::after {
+    content: "";
+    background: url(../../assets/fontImg/right-icon.png);
+    width:  .213333rem /* 8/37.5 */;
+    height: .266667rem /* 10/37.5 */;
+    background-size: 100% 100%;
+    position: absolute;
+    margin-left: .133333rem /* 5/37.5 */;
+    margin-top: .64rem /* 24/37.5 */;
 }
 .shouhou-content{
     height: 5.893333rem /* 221/37.5 */;
 }
 .shouhou-content--box{
-    height: 5.466667rem /* 205/37.5 */;
+    /* height: 5.466667rem 205/37.5; */
+    background: url(../../assets/fontImg/bg1.png) no-repeat;
+    background-size: 100% 100%;
+    padding: .8rem /* 30/37.5 */ .16rem /* 6/37.5 */;
 }
 .shouhou-content--item{
     height: 4.48rem /* 168/37.5 */;
@@ -408,25 +454,130 @@
     flex: 1;
     display: block;
     height: 2.24rem /* 84/37.5 */;
-    /* align-items: center; */
     text-align: center;
-    width: 3.066667rem /* 115/37.5 */;
+    width: 2.933333rem /* 110/37.5 */;
+   
 }
 .shouhou-content--img {
     display: inline-block;
     width: 1.066667rem /* 40/37.5 */;
     height: 1.066667rem /* 40/37.5 */;
     margin-bottom: .266667rem /* 10/37.5 */;
-    
 }
 .shouhou-content--text{
-    /* text-align: center; */
+    font-size: .32rem /* 12/37.5 */;
+    line-height: .32rem /* 12/37.5 */;
+    color: #a86e1c;
 }
 .gouchefuwu {
     height: 5.866667rem /* 220/37.5 */;
-    background: blue;
+    padding-left: .4rem /* 15/37.5 */;
+    padding-right: .4rem /* 15/37.5 */;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.gouchefuwu-header{
+    height: 1.626667rem /* 61/37.5 */;
+}
+.gouchefuwu-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.gouchefuwu-content--title{
+    font-size: .426667rem /* 16/37.5 */;
+    color: #000000;
+    font-weight: 600;
+    height: 1.6rem /* 60/37.5 */;
+    line-height: 1.6rem /* 60/37.5 */;
+}
+.gouchefuwu-content--wuliu{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.gouchefuwu-wuliu--title,.gouchefuwu-liuchen--title{
+    color: #8f96a0;
+    font-weight: 400;
+    height: 1.413333rem /* 53/37.5 */;
+    line-height: 1.413333rem /* 53/37.5 */;
+}
+.gouchefuwu-wuliu--text, .gouchefuwu-liuchen--item{
+    margin-left: .533333rem /* 20/37.5 */;
+    color: #8f96a0;
+    height: 1.413333rem /* 53/37.5 */;
+    line-height: 1.413333rem /* 53/37.5 */;
+}
+.gouchefuwu-wuliu--from, .gouchefuwu-wuliu--to{
+    color: #000000;
+    font-weight: 900;
+    margin-left: .133333rem /* 5/37.5 */;
+    margin-right: .133333rem /* 5/37.5 */;
+}
+.gouchefuwu-liuchen--item::after{
+    content: "";
+    background: url(../../assets/fontImg/right-icon.png);
+    width:  .213333rem /* 8/37.5 */;
+    height: .266667rem /* 10/37.5 */;
+    background-size: 100% 100%;
+    position: absolute;
+    margin-left: .133333rem /* 5/37.5 */;
+    margin-top: .64rem /* 24/37.5 */;
+}
+.gouchefuwu-content--liuchen{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.gouchefuwu-content--rengong{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gouchefuwu-rengong--box{
+    width: 100%;
+    height: 1.413333rem /* 53/37.5 */;
+    display: flex;
+    flex-direction: row;
+}
+.gouchefuwu-rengong--img{
+    background: url("../../assets/fontImg/touxiang.png") ;
+    width: 1.173333rem /* 44/37.5 */;
+    height: 1.173333rem /* 44/37.5 */;
+    background-size: cover;
+}
+.gouchefuwu-rengong--text{
+    height: 1.173333rem /* 44/37.5 */;
+    line-height: 1.173333rem /* 44/37.5 */;
+    font-size: .373333rem /* 14/37.5 */;
+    color: #000000;
+    font-weight: 600;
+    margin-left: .533333rem /* 20/37.5 */;
 }
 .xuangouzhinan{
     height: 7.2rem /* 270/37.5 */;
-    background: yellow;
+    padding-left: .4rem /* 15/37.5 */;
+    padding-right: .4rem /* 15/37.5 */;
+    background: #ffffff;
+}
+.xuangouzhinan-header{
+    height: 1.866667rem /* 70/37.5 */;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.xuangouzhinan-left--text1{
+    font-weight: 900;
+}
+.xuangouzhinan-left--text1,.xuangouzhinan-left--text2,.xuangouzhinan-left--text3 {
+    font-size: .48rem /* 18/37.5 */;
+    color: #000000;
+    margin-right: .266667rem /* 10/37.5 */;
+}
+.xuangouzhinan-right--text{
+    color: #8f96a0;
+    font-size: .373333rem /* 14/37.5 */;
 }

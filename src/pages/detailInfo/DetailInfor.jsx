@@ -94,109 +94,149 @@ function CarsInfomation() {
                             <div className="carInfo-detail--item">
                                 <span className="car-detail--item">表显示里程</span>
                                 <span className="detail-num">0.9万公里</span>
-                            </div>                     
-                        <div className="carInfo-detail--item">
-                            <span className="car-detail--item">上牌时间</span>
-                            <span className="detail-num">2019-07</span>
+                            </div>
+                            <div className="carInfo-detail--item">
+                                <span className="car-detail--item">上牌时间</span>
+                                <span className="detail-num">2019-07</span>
+                            </div>
+                            <div className="carInfo-detail--item">
+                                <span className="car-detail--item">变速箱</span>
+                                <span className="detail-num">自动</span>
+                            </div>
                         </div>
-                        <div className="carInfo-detail--item">
-                            <span className="car-detail--item">变速箱</span>
-                            <span className="detail-num">自动</span>
+                        <div className="carInfo-detail--row">
+                            <div className="carInfo-detail--item">
+                                <span className="car-detail--item">排放量</span>
+                                <span className="detail-num">1.8T</span>
+                            </div>
+                            <div className="carInfo-detail--item">
+                                <span className="car-detail--item">登记证为准</span>
+                                <span className="detail-num">1次过户</span>
+                            </div>
+                            <div className="carInfo-detail--item">
+                                <span className="car-detail--item">车源编号</span>
+                                <span className="detail-num">95327723</span>
+                            </div>
                         </div>
+                        <div className="carInfo-detail--row">
+                            <div className="carInfo-detail--item">
+                                <span className="car-detail--item">准入情况</span>
+                                <Link to="" className="detail-num--link">查迁入标准</Link>
+                            </div>
+                            <div className="carInfo-detail--item">
+                                <span className="car-detail--item">购车方式</span>
+                                <Link to="" className="detail-num--link">查购车步骤</Link>
+                            </div>
+                            <div className="carInfo-detail--item">
+                                <span className="car-detail--item">车源</span>
+                                <Link to="" className="detail-num--link">查车源地</Link>
+                            </div>
+                        </div>
+                        <div >
+                            <Link to="" className="dangan-canshu--wrapper">
+                                <span className="dangan-canshu--text">查看全部参数配置</span>
+                            </Link>
+                        </div >
                     </div>
-                    <div className="carInfo-detail--row">
-                        <div className="carInfo-detail--item">
-                            <span className="car-detail--item">排放量</span>
-                            <span className="detail-num">1.8T</span>
-                        </div>
-                        <div className="carInfo-detail--item">
-                            <span className="car-detail--item">登记证为准</span>
-                            <span className="detail-num">1次过户</span>
-                        </div>
-                        <div className="carInfo-detail--item">
-                            <span className="car-detail--item">车源编号</span>
-                            <span className="detail-num">95327723</span>
-                        </div>
-                    </div>
-                    <div className="carInfo-detail--row">
-                        <div className="carInfo-detail--item">
-                            <span className="car-detail--item">准入情况</span>
-                            <Link to="" className="detail-num--link">查迁入标准</Link>
-                        </div>
-                        <div className="carInfo-detail--item">
-                            <span className="car-detail--item">购车方式</span>
-                            <Link to="" className="detail-num--link">查购车步骤</Link>
-                        </div>
-                        <div className="carInfo-detail--item">
-                            <span className="car-detail--item">车源</span>
-                            <Link to="" className="detail-num--link">查车源地</Link>
-                        </div>
-                    </div>
-                    <div >
-                        <Link to="" className="dangan-canshu--wrapper">
-                            <span className="dangan-canshu--text">查看全部参数配置</span>
-                        </Link>
-                    </div >
                 </div>
-            </div>
-                <div class="kongbaihe"></div>
-                <div class="shouhou">
-                    <div class="shouhou-header">
-                        <Link to="" class="shouhou-header">
-                        <span class="shouhou-header--text1"></span>
-                        <span class="shouhou-header--text2"></span>
-                        <span class="shouhou-header--text3"></span>
+                <div className="kongbaihe"></div>
+                <div className="shouhou">
+                    <div className="shouhou-header">
+                        <Link to="" className="shouhou-header--link">
+                            <div className="shouhou-header--box">
+                                <span className="shouhou-header--text1">服务保障</span>
+                                <span className="shouhou-header--text2">服务费不超过车价9%，欢迎联系咨询</span>
+                            </div>
+                            <span className="shouhou-header--text3 "></span>
                         </Link>
                     </div>
-                    <div class="shouhou-content">
-                        <div class="shouhou-content--box">
-                            <ul class="shouhou-content--item">
+                    <div className="shouhou-content">
+                        <div className="shouhou-content--box">
+                            <ul className="shouhou-content--item">
                                 <li>
-                                    <Link to="" class="shouhou-item--box">
-                                        <img class="shouhou-content--img" src="../../assets/fontImg/baoxiu.png"/>
-                                        <p class="shouhou-content--text">30天全面保修</p>
-                                    </Link> 
+                                    <Link to="" className="shouhou-item--box">
+                                        <img className="shouhou-content--img" src={require("../../assets/fontImg/baoxiu.png")} />
+                                        <p className="shouhou-content--text">30天全面保修</p>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to="" class="shouhou-item--box">
-                                        <img class="shouhou-content--img" src="../../assets/fontImg/baozhang.png"/>
-                                        <p class="shouhou-content--text">1年或2万公里保障</p>
-                                    </Link>    
+                                    <Link to="" className="shouhou-item--box">
+                                        <img className="shouhou-content--img" src={require("../../assets/fontImg/baozhang.png")} />
+                                        <p className="shouhou-content--text">1年或2万公里保障</p>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to="" class="shouhou-item--box">
-                                        <img class="shouhou-content--img" src="../../assets/fontImg/zhengbei.png"/>
-                                        <p class="shouhou-content--text">专业整备</p>
-                                    </Link>                
+                                    <Link to="" className="shouhou-item--box">
+                                        <img className="shouhou-content--img" src={require("../../assets/fontImg/zhengbei.png")} />
+                                        <p className="shouhou-content--text">专业整备</p>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to="" class="shouhou-item--box">
-                                        <img class="shouhou-content--img" src="../../assets/fontImg/guohu.png" />
-                                        <p class="shouhou-content--text">过户服务</p>
-                                    </Link>                          
+                                    <Link to="" className="shouhou-item--box">
+                                        <img className="shouhou-content--img" src={require("../../assets/fontImg/guohu.png")} />
+                                        <p className="shouhou-content--text">过户服务</p>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to="" class="shouhou-item--box">
-                                        <img class="shouhou-content--img" src="../../assets/fontImg/jiance.png"/>
-                                        <p class="shouhou-content--text">259项检测</p>
-                                    </Link>                    
+                                    <Link to="" className="shouhou-item--box">
+                                        <img className="shouhou-content--img" src={require("../../assets/fontImg/jiance.png")} />
+                                        <p className="shouhou-content--text">259项检测</p>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to="" class="shouhou-item--box">
-                                        <img class="shouhou-content--img" src="../../assets/fontImg/peifu.png"/>
-                                        <p class="shouhou-content--text">调表车赔付</p>
-                                    </Link>                  
+                                    <Link to="" className="shouhou-item--box">
+                                        <img className="shouhou-content--img" src={require("../../assets/fontImg/peifu.png")} />
+                                        <p className="shouhou-content--text">调表车赔付</p>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="kongbaihe"></div>
-                <div class="gouchefuwu"></div>
-                <div class="kongbaihe"></div>
-                <div class="xuangouzhinan"></div>
-                <div class="kongbaihe"></div>
-         </div>
+                <div className="kongbaihe"></div>
+                <div className="gouchefuwu">
+                    <div class="gouchefuwu-header">
+                        <span class="gouchefuwu-content--title">购车服务</span>
+                    </div>
+                    <div class="gouchefuwu-content">
+                        <div class="gouchefuwu-content--wuliu">
+                            <span class="gouchefuwu-wuliu--title">瓜子物流</span>
+                            <h3 class="gouchefuwu-wuliu--text">车辆将由
+                                <span class="gouchefuwu-wuliu--from">华东仓</span>
+                                运往
+                                <span class="gouchefuwu-wuliu--to">南昌</span>
+                            </h3>
+                        </div>
+                        <div class="gouchefuwu-content--liuchen">
+                            <span class="gouchefuwu-liuchen--title">流程服务</span>
+                            <span class="gouchefuwu-liuchen--item">在线看车</span>
+                            <span class="gouchefuwu-liuchen--item">专人上门</span>
+                            <span class="gouchefuwu-liuchen--item">确定意向</span>
+                            <span class="gouchefuwu-liuchen--item">验车过户</span>
+                        </div>
+                        <div class="gouchefuwu-content--rengong">
+                            <div class="gouchefuwu-rengong--box">
+                            <div class="gouchefuwu-rengong--img"></div>
+                            <h3 class="gouchefuwu-rengong--text">顾问上门 为您一站式服务</h3>
+                            </div>
+                            <span class="right-icon"></span>
+                        </div>
+                    </div>
+                </div>
+                <div className="kongbaihe"></div>
+                <div className="xuangouzhinan">
+                    <div class="xuangouzhinan-header">
+                        <div class="xuangouzhinan-left--box">
+                            <span class="xuangouzhinan-left--text1">纳智捷优6</span>
+                            <span class="xuangouzhinan-left--text2">SUV</span>
+                            <span class="xuangouzhinan-left--text3">选购指南</span>
+                        </div>
+                        <span class="xuangouzhinan-right--text">每日更新</span>
+                    </div>
+                    <div class="xuangouzhinan-content"></div>
+                </div>
+                <div className="kongbaihe"></div>
+            </div>
         </section >
     )
 }
