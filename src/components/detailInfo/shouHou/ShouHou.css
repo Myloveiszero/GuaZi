@@ -1,0 +1,73 @@
+.shouhou {
+    height: 7.386667rem /* 277/37.5 */;
+    padding-left: .4rem /* 15/37.5 */;
+    padding-right: .4rem /* 15/37.5 */;
+    padding-bottom: .426667rem /* 16/37.5 */;
+    background: #ffffff;
+}
+.shouhou-header--link{
+    height: 1.493333rem /* 56/37.5 */;
+    display: flex;
+    justify-content: space-between;
+}
+.shouhou-header--text1{
+    font-size: .4rem /* 15/37.5 */;
+    color: #303741;
+    padding: 0;
+    line-height: 1.493333rem /* 56/37.5 */;
+}
+.shouhou-header--text2{
+    font-size: .266667rem /* 10/37.5 */;
+    line-height: .32rem /* 12/37.5 */;
+    color: #8f96a0;
+    margin-left: .4rem /* 15/37.5 */;
+}
+.shouhou-header--text3{
+    display: inline-block;
+    /* width: .026667rem 1/37.5; */
+    /* height: 1.493333rem 56/37.5; */
+    margin-right: .4rem /* 15/37.5 */;
+}
+.shouhou-header--text3::after {
+    content: "";
+    background: url(../../../assets/fontImg/right-icon.png);
+    width:  .213333rem /* 8/37.5 */;
+    height: .266667rem /* 10/37.5 */;
+    background-size: 100% 100%;
+    position: absolute;
+    margin-left: .133333rem /* 5/37.5 */;
+    margin-top: .64rem /* 24/37.5 */;
+}
+.shouhou-content{
+    height: 5.893333rem /* 221/37.5 */;
+}
+.shouhou-content--box{
+    /* height: 5.466667rem 205/37.5; */
+    background: url(../../../assets/fontImg/bg1.png) no-repeat;
+    background-size: 100% 100%;
+    padding: .8rem /* 30/37.5 */ .16rem /* 6/37.5 */;
+}
+.shouhou-content--item{
+    height: 4.48rem /* 168/37.5 */;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shouhou-item--box{
+    flex: 1;
+    display: block;
+    height: 2.24rem /* 84/37.5 */;
+    text-align: center;
+    width: 2.933333rem /* 110/37.5 */;
+   
+}
+.shouhou-content--img {
+    display: inline-block;
+    width: 1.066667rem /* 40/37.5 */;
+    height: 1.066667rem /* 40/37.5 */;
+    margin-bottom: .266667rem /* 10/37.5 */;
+}
+.shouhou-content--text{
+    font-size: .32rem /* 12/37.5 */;
+    line-height: .32rem /* 12/37.5 */;
+    color: #a86e1c;
+}

@@ -1,0 +1,87 @@
+.gouchefuwu {
+    height: 5.866667rem /* 220/37.5 */;
+    padding-left: .4rem /* 15/37.5 */;
+    padding-right: .4rem /* 15/37.5 */;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.gouchefuwu-header{
+    height: 1.626667rem /* 61/37.5 */;
+}
+.gouchefuwu-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.gouchefuwu-content--title{
+    font-size: .426667rem /* 16/37.5 */;
+    color: #000000;
+    font-weight: 600;
+    height: 1.6rem /* 60/37.5 */;
+    line-height: 1.6rem /* 60/37.5 */;
+}
+.gouchefuwu-content--wuliu{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.gouchefuwu-wuliu--title,.gouchefuwu-liuchen--title{
+    color: #8f96a0;
+    font-weight: 400;
+    height: 1.413333rem /* 53/37.5 */;
+    line-height: 1.413333rem /* 53/37.5 */;
+}
+.gouchefuwu-wuliu--text, .gouchefuwu-liuchen--item{
+    margin-left: .533333rem /* 20/37.5 */;
+    color: #8f96a0;
+    height: 1.413333rem /* 53/37.5 */;
+    line-height: 1.413333rem /* 53/37.5 */;
+}
+.gouchefuwu-wuliu--from, .gouchefuwu-wuliu--to{
+    color: #000000;
+    font-weight: 900;
+    margin-left: .133333rem /* 5/37.5 */;
+    margin-right: .133333rem /* 5/37.5 */;
+}
+.gouchefuwu-liuchen--item::after{
+    content: "";
+    background: url(../../../assets/fontImg/right-icon.png);
+    width:  .213333rem /* 8/37.5 */;
+    height: .266667rem /* 10/37.5 */;
+    background-size: 100% 100%;
+    position: absolute;
+    margin-left: .133333rem /* 5/37.5 */;
+    margin-top: .64rem /* 24/37.5 */;
+}
+.gouchefuwu-content--liuchen{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.gouchefuwu-content--rengong{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gouchefuwu-rengong--box{
+    width: 100%;
+    height: 1.413333rem /* 53/37.5 */;
+    display: flex;
+    flex-direction: row;
+}
+.gouchefuwu-rengong--img{
+    background: url("../../../assets/fontImg/touxiang.png") ;
+    width: 1.173333rem /* 44/37.5 */;
+    height: 1.173333rem /* 44/37.5 */;
+    background-size: cover;
+}
+.gouchefuwu-rengong--text{
+    height: 1.173333rem /* 44/37.5 */;
+    line-height: 1.173333rem /* 44/37.5 */;
+    font-size: .373333rem /* 14/37.5 */;
+    color: #000000;
+    font-weight: 600;
+    margin-left: .533333rem /* 20/37.5 */;
+}

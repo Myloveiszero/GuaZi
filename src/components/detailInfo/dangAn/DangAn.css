@@ -1,0 +1,100 @@
+.dangan {
+    /* height: 8rem 300/37.5; */
+    padding-left: .4rem /* 15/37.5 */;
+    padding-right: .4rem /* 15/37.5 */;
+    background: #ffffff;
+}
+.dangan-header--wrapper{
+    height: 1.6rem /* 60/37.5 */;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dangan-title {
+    font-size: .426667rem /* 16/37.5 */;
+    font-weight: 900;
+}
+.carInfo-link {
+    color: #8f96a0;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: .426667rem /* 16/37.5 */;
+}
+.carInfo-link::after {
+    margin-top: .16rem /* 6/37.5 */;
+    content: "";
+    background: url(../../../assets/fontImg/right-icon.png) no-repeat;
+    width: .16rem /* 6/37.5 */;
+    height: .24rem /* 9/37.5 */;
+    background-size: 100% 100%;
+    margin-left: .266667rem /* 10/37.5 */;
+    position: absolute;;
+}
+.carInfo-item--title {
+    height: 1.066667rem /* 40/37.5 */;
+    display: flex;
+    color: #000000;
+    justify-content: space-around;
+    align-items: center;
+    background: #dddfe0;
+    font-size: .426667rem /* 16/37.5 */;
+    border-radius: .266667rem /* 10/37.5 */;
+}
+.carInfo-detail--row {
+    height: 1.866667rem /* 70/37.5 */;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.carInfo-detail--item {
+    height: 1.333333rem /* 50/37.5 */;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-top: .266667rem 10/37.5; */
+}
+.car-detail--item {
+    color: #8f96a0;
+}
+.detail-num{
+    color: #000000;
+    font-size: .373333rem /* 14/37.5 */;
+    font-weight: 400;
+}
+.detail-num--link{
+    color: #22ac38;
+    font-size: .373333rem /* 14/37.5 */;
+    margin-right: .266667rem /* 10/37.5 */;
+}
+.detail-num--link:after {
+    content: "";
+    width: .133333rem /* 5/37.5 */;
+    height: .133333rem /* 5/37.5 */;
+    background-size: 100% 100%;
+    border-top: 1px solid #22ac38;
+    border-right: 1px solid #22ac38;
+    transform: rotate(45deg);
+    position: absolute;
+    margin-top: .186667rem /* 7/37.5 */;
+}
+.dangan-canshu--wrapper{
+    height: 1.066667rem /* 40/37.5 */;
+    display: block;
+    text-align: center;
+}
+.dangan-canshu--text{
+    height: 1.066667rem /* 40/37.5 */;
+    line-height: 1.066667rem /* 40/37.5 */;
+    color: #8f96a0;
+    font-size: .373333rem /* 14/37.5 */;
+}
+.dangan-canshu--text::after {
+    content: "";
+    background: url(../../../assets/fontImg/right-icon.png);
+    width: .266667rem /* 10/37.5 */;
+    height: .266667rem /* 10/37.5 */;
+    background-size: 100% 100%;
+    position: absolute;
+    margin-left: .133333rem /* 5/37.5 */;
+    margin-top: .4rem /* 15/37.5 */;
+}

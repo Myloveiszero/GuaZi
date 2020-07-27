@@ -1,0 +1,37 @@
+.chuxiao {
+    padding-left: .4rem /* 15/37.5 */;
+    padding-right: .4rem /* 15/37.5 */;
+    background: #ffffff;
+    height: 1.866667rem /* 70/37.5 */;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-iconfontcuxiao {
+    color: #ff7e4f;
+    margin-right: .4rem /* 15/37.5 */;
+    font-size: .533333rem /* 20/37.5 */;
+    font-weight: 400;
+}
+.chuxiao-text1{
+    color: #ef7347;
+    font-size: .426667rem /* 16/37.5 */;
+    font-weight: 900;
+}
+.chuxiao-text2 {
+    color: #8f96a0;
+    font-size: .373333rem /* 14/37.5 */;
+    font-weight: 900;
+    margin-right: .533333rem /* 20/37.5 */;
+}
+
+/**/
+#right-icon {
+    margin-top: .213333rem /* 8/37.5 */;
+    content: "";
+    background: url(../../../assets/fontImg/right-icon.png) no-repeat;
+    width: .16rem /* 6/37.5 */;
+    height: .24rem /* 9/37.5 */;
+    background-size: 100% 100%;
+    position: absolute;
+}

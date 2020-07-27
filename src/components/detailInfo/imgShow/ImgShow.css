@@ -1,0 +1,23 @@
+.img-show {
+    width: 100%;
+    position: relative;
+    height: 6.133333rem /* 230/37.5 */;
+    background-color: pink;
+}
+.pic-count {
+    width: .933333rem /* 35/37.5 */;
+    height: .666667rem /* 25/37.5 */;
+    background: rgb(58, 57, 57);
+    opacity: 30%;
+    position: absolute;
+    border-radius: 40%;
+    right: .4rem /* 15/37.5 */;
+    top: 5.066667rem /* 190/37.5 */;
+}
+.pic-num {
+    color: #ffffff;
+    z-index: 900;
+    height: .666667rem /* 25/37.5 */;
+    line-height: .666667rem /* 25/37.5 */;
+    text-align: center;
+}

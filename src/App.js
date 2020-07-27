@@ -6,7 +6,7 @@ import SellCars from './pages/sellingCars/SellCars';
 import BuyCars from './pages/buycars/wrapper/Wrapper';
 import Message from './pages/message/Message';
 import Mine from './pages/mine/Mine';
-import Detail from './pages/detailInfo/DetailInfor';
+import Detail from './components/detailInfo/index/index';
 
 function App() {
   return (
